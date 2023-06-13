@@ -1,1 +1,1 @@
-# -dot-devcontainer-terraform-1.5
+# dot-devcontainer-terraform-1.5
