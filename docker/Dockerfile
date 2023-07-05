@@ -1,4 +1,4 @@
-FROM ghcr.io/kumanoryo/debian-fish:bookworm
+FROM ghcr.io/bearfield/debian-fish:bookworm
 #
 # set argument
 ARG TERRAFORM_VERSION=1.5.*
@@ -19,4 +19,4 @@ RUN apt-get update \
 #
 # set env
 ENV DEBIAN_FRONTEND=dialog
-LABEL org.opencontainers.image.source https://github.com/kumanoryo/dot-devcontainer-terraform-1.5
+LABEL org.opencontainers.image.source https://github.com/bearfield/dot-devcontainer-terraform-1.5
